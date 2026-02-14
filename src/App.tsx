@@ -1,6 +1,11 @@
 
 import './App.css'
 import './components/header/Navigation.css'
+import './components/contents/Profile.css'
+import './components/contents/Projects.css'
+import './components/contents/Skills.css'
+import './components/contents/ToolSet.css'
+import './components/footer/Contacts.css'
 import Contacts from './components/footer/Contacts';
 import Navigation from './components/header/Navigation';
 import Profile from './components/contents/Profile';

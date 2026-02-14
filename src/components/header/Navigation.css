@@ -12,35 +12,39 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    background-image: url(/public/image.png);
-    background-size: cover;
+    background-image: url(/public/bg.jpg);
+    background-size: contain;
     background-position: center;
 }
+
+.navbar{
+    z-index: 2;
+    background-color: rgba(0, 0, 0);
+}
+
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    color: #000000;
-    font-size: 32px;
+    color: #ffffff;
     font-weight: bold;
-    margin-left: 20px;
 }
 
-.navbar-nav {
-    display: flex;
-    background-color: #0000006d;
-    margin-left: 350px;
+#logo {
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
 }
+/* .navbar-nav {
+    display: flex;
+    background-color: #8e25256d;
+    margin-left: 350px;
+} */
 
 .navbar-nav .nav-item{
     margin: 10px;
-    transition: 0.3s ease-out;
 }
 
-.navbar-nav .nav-item:hover{
-    background-color: #ffffff;
-    transform: scale(1.3);
-}
 .navbar-nav .nav-item .nav-link {
     color: #ffffff;
     font-size: 18px;
@@ -49,10 +53,26 @@
     transition: background-color 0.3s ease;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-    color: #000000;
+.navbar-nav .nav-item .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
 }
 
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+.divider {
+    width: 1px;
+    height: 30px;
+    background-color: #ffffff;
+    margin: 15px 15px;
+    
+}
 .banner{
     width: 100%;
     height: 100vh;
@@ -66,7 +86,7 @@
     width: 200px;
     height: 250px;
     top: 30%;
-    left: 20%;
+    left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
     animation: autoRun 20s linear infinite;

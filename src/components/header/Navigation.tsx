@@ -4,29 +4,34 @@
     <div className="container" id="container">
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#container">MAYANI</a>
+        <a className="navbar-brand" href="#container"><img id="logo" src="logo.png" alt="Logo" /></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
             </li>
+            <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="#profile">Profile</a>
+              <a className="nav-link" href="#profile"><b>PROFILE</b></a>
             </li>
+            <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link" href="#projects"><b>PROJECTS</b></a>
             </li>
+            <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="#skills">Skills</a>
+              <a className="nav-link" href="#skills"><b>SKILLS</b></a>
             </li>
+            <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="#toolset">Toolset</a>
+              <a className="nav-link" href="#toolset"><b>TOOLSET</b></a>
             </li>
+            <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="#contacts">Contacts</a>
+              <a className="nav-link" href="#contacts"><b>CONTACTS</b></a>
             </li>
           </ul>
         </div>
