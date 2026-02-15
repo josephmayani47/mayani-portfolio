@@ -8,7 +8,7 @@ const ToolSet = () => {
     ];
   return (
     <div className="toolset" id="toolset">
-      <div className="st"><h6>TOOLS</h6></div>
+      <div className="st"><p>TOOLS</p></div>
       <ul className="tool-list">
         {tools.map((tool, index) => (
           <li key={index} className="tool-item">

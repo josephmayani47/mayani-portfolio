@@ -10,19 +10,7 @@
     padding: 20px;
 }
 
-.st{
-    display: flex;
-    color: #000000;
-    margin-top: 50px;
-    align-items: center;
-    justify-content: center;
-}
 
-.st p{
-    font-size: 60px;
-    font-family: 'Playwrite AT', sans-serif;
-    color: rgb(0, 0, 0) ;
-}
 
 .project-list {
     margin-top: 40px;
@@ -112,5 +100,5 @@
     width: 100%;
     height: 150px;
     object-fit: cover;
-    margin-top: 10px;
+    margin-top: 2px;
 }

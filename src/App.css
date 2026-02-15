@@ -38,120 +38,27 @@ h3 {
 
 
 
-.contacts{
+
+
+.st{
     display: flex;
+    color: #000000;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    padding: 20px;
 }
 
-
-
-.contact-list {
-    margin-top: 20px;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.st p{
+    font-size: 60px;
+    font-family: 'Playwrite AT', sans-serif;
+    color: rgb(0, 0, 0) ;
 }
-
-.contact-item {
-    margin-top: 5px;
-    list-style-type: none;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skills-set{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    padding: 20px;
-}
-
-.skills-list {
-    margin-top: 20px;
-    list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.674);
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    width: 200px;
-    height: 100px;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.tool-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    padding: 20px;
-}
-
-.tool-item {
-    margin-top: 20px;
-    list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.674); 
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    width: 200px;
-    height: 100px;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-
-
-.strength {
-    max-width: 1200px;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 20px;
-    background-image:url(strength.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 
 span {
     color: #000000;
 }
 
-#coffee {
-    color: #000000;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    text-align: center;
-}
+
 
 
