@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .contacts{
     display: flex;
-    background-image: url(/public/black.jpg);
+    background-image: url(/black.jpg);
     height: 80vh;
     margin-top: 40px;
     padding: 10px;
@@ -86,9 +86,9 @@
 
 .copyright {
     text-align: center;
-    margin-top: 20px;
     color: #aea6a6;
     font-family: 'Roboto', monospace;
+    padding-top: 20px;
 }
 
 .contact-services {

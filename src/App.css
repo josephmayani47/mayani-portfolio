@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f5f2f2ea;
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -49,7 +49,7 @@ h3 {
 }
 
 .st p{
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Playwrite AT', sans-serif;
     color: rgb(0, 0, 0) ;
 }

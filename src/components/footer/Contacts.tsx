@@ -52,7 +52,7 @@ const Contacts = () => {
         </div>                       
 
           <div className="col">
-             <p id="pages">Pages</p>
+             <h3 id="pages">Pages</h3>
               <ul className="contact-pages">
                 <li className="contact-p"><a href="#about">About</a></li>
                 <li className="contact-p"><a href="#skills">Skills</a></li>

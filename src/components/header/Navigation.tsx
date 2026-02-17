@@ -1,3 +1,8 @@
+ import { icon } from "@fortawesome/fontawesome-svg-core";
+ import { faGithub } from "@fortawesome/free-brands-svg-icons";
+ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+ 
  const Navigation = () => {
 
   return (
@@ -27,7 +32,7 @@
             </li>
             <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="#toolset"><b>TOOLSET</b></a>
+              <a className="nav-link" href="#tools"><b>TOOLSET</b></a>
             </li>
             <div className="divider"></div>
             <li className="nav-item">
@@ -48,9 +53,26 @@
           <div className="item" style={{"--position": 5} as React.CSSProperties}><img src="images/js.jpeg" alt="" /></div>
           <div className="item" style={{"--position": 6} as React.CSSProperties}><img src="images/ml.jpeg" alt="" /></div>
           <div className="item" style={{"--position": 7} as React.CSSProperties}><img src="images/ps.jpeg" alt="" /></div>
-          <div className="item" style={{"--position": 8} as React.CSSProperties}><img src="images/react.jpeg" alt="" /></div>
+          <div className="item" style={{"--position": 8} as React.CSSProperties}><img src="images/react3.jpeg" alt="" /></div>
         </div>
+        
+        <div className="mane">
+          <div className="cv">
+            <a href='https://github.com/josephmayani47' target="_blank" rel="noopener noreferrer">
+                  {icon(faGithub) && <FontAwesomeIcon icon={icon(faGithub)} style={{color:"black"}} />}
+            </a>
+            <p>resume</p>
+          </div>
+          <div className="icon"><p>download</p></div>
+        </div>
+        <div className="name">
+          <div className="title"><p>PORTFOLIO</p></div>
+          <div className="sub-title">Get in touch and let's do work together, Impossible is nothing</div>
+        </div>
+        
       </div>
+
+      
     </div>
     </div>
   )

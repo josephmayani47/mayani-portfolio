@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    background-image: url(/public/textbg.jpg);
     align-items: center;
     justify-content: center;
     margin-top: 40px;
@@ -13,14 +14,37 @@
 .skills-list {
     margin-top: 20px;
     list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.674);
+    background-color: rgba(0, 0, 0, 0.231);
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
     width: 200px;
     height: 100px;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.roo{
+    display: flex;
+}
+
+.colm{
+    width: 50%;
+}
+
+.colm p{
+    color: rgb(0, 0, 0);
+    margin-left: 35%;
+    font-family: 'Roboto', monospace;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.divide {
+    width: 2px;
+    height: 400px;
+    background-color: #7d7d7d;
+    margin: 15px 15px;
+    
 }

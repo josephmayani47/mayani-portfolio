@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wrap{
+    background-image: url(/public/textbg.jpg);
+}
+
+.contain{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10%;
+   width: 80%;
+}
+
+.column{
+    width:50%;
+    margin: 10px;
+    padding: 10px;
+    height: 700px;
+    float: left;
+    display: flex;
+}
+
+#right{
+    display: flex;
+    flex-direction: column; 
+}
+
+#right h1{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 68, 0);
+}
+
+#right h2{
+    font-weight: bold;
+    font-size: large;
+}
+
+#right p{
+    font-family:'Roboto', monospace ;
+    color: rgb(64, 62, 62);
+    font-size: small;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+}
+
+#left h1{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 68, 0);
+}
+
+#left h2{
+    font-weight: bold;
+    font-size: large;
+}
+#left p{
+    font-family:'Roboto', monospace ;
+    color: rgb(64, 62, 62);
+    font-size: small;
+}
+
+.first{
+    background-color: rgba(110, 109, 109, 0.114);
+    height: 350px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.second{
+    background-color: rgba(153, 151, 149, 0.064);
+    height: 350px;
+    padding: 5px;
+}
+
+
+
+
+
+
+

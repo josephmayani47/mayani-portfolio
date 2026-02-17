@@ -63,9 +63,10 @@ const Projects = () => {
         <div className="st"><p>PROJECTS</p></div>
 
         <div className="controls">
-            <button onClick={()=>scroll("left")}>&lt;</button>
-            <button onClick={()=>scroll("right")}>&gt;</button>
+            <button onClick={()=>scroll("left")}>.</button>
+            <button onClick={()=>scroll("right")}>.</button>
         </div>
+
         <div className="project-list">
             {projects.map((project, index) => (
             <div key={index} className="project-item">
