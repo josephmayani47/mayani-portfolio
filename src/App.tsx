@@ -14,18 +14,38 @@ import { Strengths } from './components/contents/Strengths';
 import Projects from './components/contents/Projects';
 import Skills from './components/contents/Skills';
 import ToolSet from './components/contents/ToolSet';
+import Resume from './components/contents/Resume';
+import {  Routes, Route } from "react-router-dom";
+
 
 
 function App() {
   return(
     <>
-     <Navigation />
-     <Profile />
-     <Projects />
-     <Skills />
-     <ToolSet />
-     <Strengths />
-     <Contacts />
+     
+
+    <Routes>
+        <Route path="/resume" element={<Resume />} />
+    </Routes>
+
+    <Routes>
+        <Route path="/" 
+        element={
+          <>
+            <Navigation />
+            <Profile />
+            <Strengths />
+            <Projects />
+            <Skills />
+            <ToolSet />
+            <Contacts />
+          </>
+        } />
+    </Routes>
+    
+     
+
+      
     </>
   );
 }

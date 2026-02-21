@@ -1,6 +1,7 @@
  import { icon } from "@fortawesome/fontawesome-svg-core";
  import { faGithub } from "@fortawesome/free-brands-svg-icons";
  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ import { Link } from "react-router-dom";
 
  
  const Navigation = () => {
@@ -61,7 +62,7 @@
             <a href='https://github.com/josephmayani47' target="_blank" rel="noopener noreferrer">
                   {icon(faGithub) && <FontAwesomeIcon icon={icon(faGithub)} style={{color:"black"}} />}
             </a>
-            <p>resume</p>
+            <p><Link to="/resume">Resume</Link></p>
           </div>
           <div className="icon"><p>download</p></div>
         </div>
